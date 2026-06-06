@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+/* HEADER */
+header{
+    background-color: #f8c7d8;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1{
+    color: #b56576;
+    margin-bottom: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #b56576;
+    font-size: 28px;
+    margin: 35px;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    background-color: #fff8f8;
+    padding: 50px;
+}
+
+/* ASIDE */
+aside{
+    width: 35%;
+}
+
+aside img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.biodata{
+    margin-top: 20px;
+    color: #b56576;
+    font-size: 24px;
+    line-height: 1.7;
+}
+
+/* ARTICLE */
+article{
+    width: 65%;
+    color: #b56576;
+    font-size: 24px;
+}
+
+article section{
+    margin-bottom: 35px;
+}
+
+article h2{
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-left: 25px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #f8c7d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 70px;
+}
+
+footer h2{
+    color: #b56576;
+    font-weight: normal;
+}
+
+.social img{
+    width: 45px;
+    margin-left: 15px;
+}
